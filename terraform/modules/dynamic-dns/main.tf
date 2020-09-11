@@ -1,3 +1,4 @@
+# Get the Route53 zone_id
 data "aws_route53_zone" "this" {
   name = "${var.domain_name}." # Notice the dot!!!
   private_zone = false
@@ -12,7 +13,7 @@ resource "aws_route53_health_check" "primary" {
   failure_threshold = "5"
   request_interval  = "30"
   regions = ["us-east-1", "us-west-1", "us-west-2"]
-  disabled = false
+  disabled = true
 
   tags = merge(
     var.common_tags,
