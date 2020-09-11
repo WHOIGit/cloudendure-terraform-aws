@@ -1,0 +1,126 @@
+{
+  "ip_prefix": "107.23.255.0/26",
+  "region": "us-east-1",
+  "service": "ROUTE53_HEALTHCHECKS",
+  "network_border_group": "us-east-1"
+},
+{
+  "ip_prefix": "54.243.31.192/26",
+  "region": "us-east-1",
+  "service": "ROUTE53_HEALTHCHECKS",
+  "network_border_group": "us-east-1"
+},
+{
+  "ip_prefix": "15.177.64.0/23",
+  "region": "us-east-1",
+  "service": "ROUTE53_HEALTHCHECKS_PUBLISHING",
+  "network_border_group": "us-east-1"
+},
+{
+  "ipv6_prefix": "2406:da00:ff00::6b17:ff00/122",
+  "region": "us-east-1",
+  "service": "ROUTE53_HEALTHCHECKS",
+  "network_border_group": "us-east-1"
+},
+{
+  "ipv6_prefix": "2600:1f18:7fff:f800::/53",
+  "region": "us-east-1",
+  "service": "ROUTE53_HEALTHCHECKS",
+  "network_border_group": "us-east-1"
+},
+{
+  "ipv6_prefix": "2600:1f18:3fff:f800::/53",
+  "region": "us-east-1",
+  "service": "ROUTE53_HEALTHCHECKS",
+  "network_border_group": "us-east-1"
+},
+{
+  "ipv6_prefix": "2406:da00:ff00::36f3:1fc0/122",
+  "region": "us-east-1",
+  "service": "ROUTE53_HEALTHCHECKS",
+  "network_border_group": "us-east-1"
+},
+{
+  "ip_prefix": "54.183.255.128/26",
+  "region": "us-west-1",
+  "service": "ROUTE53_HEALTHCHECKS",
+  "network_border_group": "us-west-1"
+},
+{
+  "ip_prefix": "15.177.81.0/24",
+  "region": "us-west-1",
+  "service": "ROUTE53_HEALTHCHECKS_PUBLISHING",
+  "network_border_group": "us-west-1"
+},
+{
+  "ipv6_prefix": "2600:1f1c:7ff:f800::/53",
+  "region": "us-west-1",
+  "service": "ROUTE53_HEALTHCHECKS",
+  "network_border_group": "us-west-1"
+},
+{
+  "ipv6_prefix": "2600:1f1c:fff:f800::/53",
+  "region": "us-west-1",
+  "service": "ROUTE53_HEALTHCHECKS",
+  "network_border_group": "us-west-1"
+},
+{
+  "ipv6_prefix": "2620:107:300f::36f1:2040/122",
+  "region": "us-west-1",
+  "service": "ROUTE53_HEALTHCHECKS",
+  "network_border_group": "us-west-1"
+},
+{
+  "ipv6_prefix": "2620:107:300f::36b7:ff80/122",
+  "region": "us-west-1",
+  "service": "ROUTE53_HEALTHCHECKS",
+  "network_border_group": "us-west-1"
+},
+{
+  "ip_prefix": "54.241.32.64/26",
+  "region": "us-west-1",
+  "service": "ROUTE53_HEALTHCHECKS",
+  "network_border_group": "us-west-1"
+},
+{
+  "ip_prefix": "54.245.168.0/26",
+  "region": "us-west-2",
+  "service": "ROUTE53_HEALTHCHECKS",
+  "network_border_group": "us-west-2"
+},
+{
+  "ip_prefix": "15.177.80.0/24",
+  "region": "us-west-2",
+  "service": "ROUTE53_HEALTHCHECKS_PUBLISHING",
+  "network_border_group": "us-west-2"
+},
+{
+  "ipv6_prefix": "2600:1f14:fff:f800::/53",
+  "region": "us-west-2",
+  "service": "ROUTE53_HEALTHCHECKS",
+  "network_border_group": "us-west-2"
+},
+{
+  "ipv6_prefix": "2620:108:700f::36f4:34c0/122",
+  "region": "us-west-2",
+  "service": "ROUTE53_HEALTHCHECKS",
+  "network_border_group": "us-west-2"
+},
+{
+  "ipv6_prefix": "2620:108:700f::36f5:a800/122",
+  "region": "us-west-2",
+  "service": "ROUTE53_HEALTHCHECKS",
+  "network_border_group": "us-west-2"
+},
+{
+  "ipv6_prefix": "2600:1f14:7ff:f800::/53",
+  "region": "us-west-2",
+  "service": "ROUTE53_HEALTHCHECKS",
+  "network_border_group": "us-west-2"
+},
+{
+  "ip_prefix": "54.244.52.192/26",
+  "region": "us-west-2",
+  "service": "ROUTE53_HEALTHCHECKS",
+  "network_border_group": "us-west-2"
+},

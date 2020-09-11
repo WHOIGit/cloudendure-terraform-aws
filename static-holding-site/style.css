@@ -1,0 +1,22 @@
+.container {
+    width: 1200px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.header {
+    border-bottom: 1px solid #25578a;
+    height: 100px;
+    display: block;
+}
+
+#navbar-logo {
+    fill: #25578a;
+    float: left;
+    width: 100px;
+}
+
+.content {
+    margin-top: 30px;
+    text-align: center;
+}
