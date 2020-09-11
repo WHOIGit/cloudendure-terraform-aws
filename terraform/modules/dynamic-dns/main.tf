@@ -12,7 +12,7 @@ resource "aws_route53_health_check" "primary" {
   failure_threshold = "5"
   request_interval  = "30"
   regions = ["us-east-1", "us-west-1", "us-west-2"]
-  disabled = true
+  disabled = false
 
   tags = merge(
     var.common_tags,
