@@ -9,6 +9,11 @@ variable "ip_address_primary" {
   type        = string
 }
 
+variable "health_check_domain_name" {
+  description = "Domain name to use for primary health check"
+  type        = string
+}
+
 variable "health_check_port" {
   description = "Port for Route53 Health Check"
   type        = number

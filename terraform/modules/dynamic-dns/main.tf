@@ -6,14 +6,15 @@ data "aws_route53_zone" "this" {
 
 # Create the primary endpoint health check
 resource "aws_route53_health_check" "primary" {
-  ip_address        = var.ip_address_primary
+  #ip_address        = var.ip_address_primary
+  fqdn              = var.health_check_domain_name
   port              = var.health_check_port
   type              = "HTTP"
   resource_path     = var.health_check_resource_path
   failure_threshold = "5"
   request_interval  = "30"
   regions = ["us-east-1", "us-west-1", "us-west-2"]
-  disabled = false
+  disabled = true
 
   tags = merge(
     var.common_tags,
